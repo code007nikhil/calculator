@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#main{
+    height: 100vh;
+    background: linear-gradient(white , rgb(0, 157, 255));
+    position: relative;
+}
+
+.box{
+    padding:15px;
+    width: 300px;
+    background-color: #0000003b;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    color: white;
+    border-radius: 6px;
+    box-shadow: 0px 0px 3px black;
+}
+.heading{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.335);
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.input{
+    padding: 15px 5px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+        
+.input input{
+    width: 100%;
+    height: 50px;
+    outline: none;
+    border: none;
+    text-align: end;
+    font-size: 2em;
+    background-color: #ffffff54;
+    color: rgba(0, 0, 0, 0.579);
+    border: 1px solid white;
+    border-radius: 6px;
+    box-shadow: 0px 0px 3px black;
+
+}
+
+.buttons{
+    display: flex;  
+    min-height: 350px;
+}
+.buttons-left{
+    flex-basis: 75%;
+}
+.button-right{
+    flex-basis: 25%;
+}
+.buttons-left-row{
+    display: flex;
+    height: 20%;
+}
+.btn{
+    width: 33.33%;
+    border: 1px solid rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 3px black;
+    font-size: 18px;
+    cursor: pointer;
+}
+.btn2{
+    width: 100%;
+    box-shadow: 0px 0px 3px black;
+    height: 20%;
+    background: red;
+    border: 1px solid rgba(255, 255, 255, 0.359);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4px;
+    border-radius: 6px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.btn-big{
+    width: 67%;
+}
+.btn-big-2{
+    height: 34%;
+}
+.btn-colr-dark{
+    background-color: #2E4160;
+}
+.btn-colr-blue{
+    background-color: rgb(34, 152, 175);
+}
+.btn-colr-orange{
+    background-color: #FF9B28;
+}
+
+.btn-colr-dark:hover{
+    background-color: #ffffff;
+    color: black;
+}
+.btn-colr-blue:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.btn-colr-orange:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
