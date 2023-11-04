@@ -6,21 +6,25 @@
 
 #main{
     height: 100vh;
-    background: linear-gradient(white , rgb(0, 157, 255));
+    background: #262626;
     position: relative;
 }
 
 .box{
     padding:15px;
     width: 300px;
-    background-color: #0000003b;
+    background-color: #ffffff34;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50% , -50%);
     color: white;
     border-radius: 6px;
-    box-shadow: 0px 0px 3px black;
+    box-shadow: 0px 0px 30px black;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.302);
+    border-right: 1px solid rgba(255, 255, 255, 0.324);
 }
 .heading{
     text-align: center;
@@ -49,6 +53,7 @@
     border: 1px solid white;
     border-radius: 6px;
     box-shadow: 0px 0px 3px black;
+    padding-right: 0px 4px;
 
 }
 
